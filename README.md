@@ -1,11 +1,19 @@
+The Glorious Glasgow Haskell Compilation System, version 9.10.3
+# EstructurasDiscretas
 
-Descripcion: README de la practica 3 
-Autora: Sofia Hernandez Lopez
+**Nombre:** Sofia Hernandez Lopez
 
+**Descripción:**  Repositorio con las prácticas y proyecto de la asignatura Estructuras Discretas
 
-Int - es un entero de tamanio fijo, 64 bits en la ayoria de sisstemas 
-Num- es una clase de tipos (operaciones como +,*,abs) que `Int, Integer, Float, Double` lo implementan 
-Int es una instancia de Num 
+**Versión de GHC:** `The Glorious Glasgow Haskell Compilation System, version 9.10.3`
 
-![Ejemplo de ghci](ss_ghci.png)
+**Diferencia entre Num e Int**  
+
+-Int es un tipo concreto: un entero de tama;o fijo (64 bits) 
+
+-Num es una clase de tipos: un conjunto de operaciones (+,-,*,...)
+
+En resumen: Int es un tipo, Num es una familia de tipos
+
+![Ejemplo](NumInt.png)
 
